@@ -1,0 +1,130 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  align-items: center;
+}
+/* 
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888; */
+/* } */
+/*  */
+/* Full-screen form container */
+.form-container {
+  min-height: 100vh;
+  padding: 40px;
+  width:100%;
+  /* align-items: center; */
+  background-color: #f0f4f8; /* Light gray background for the entire form section */
+}
+
+/* Form box styling */
+.form-box {
+  background-color: white; /* White form background */
+  /* margin: auto; */
+  border-radius: 10px;
+  padding: 40px;
+  width: 450px;
+  border: 1px solid #020d18;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+/* Form headings */
+.form-heading {
+  font-weight: 600;
+  color: #333;
+}
+form{
+  border: 1px solid white;
+  border-radius: 30px;
+  background: white;
+
+}
+
+.form-subheading {
+  font-size: 14px;
+}
+
+/* Form control custom styling */
+.heading{
+  padding: 10px;
+
+  border-bottom-left-radius:30px ;
+  border-bottom-right-radius:30px ;
+  box-shadow: 0 5px 5px rgba(68, 66, 66, 0.103) ;
+
+}
+
+.form-control-custom {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ced4da; /* Light gray border */
+  box-shadow: none;
+  width: 450px;
+  padding: 10px;
+  margin-bottom: 20px;
+  transition: border-color 0.2s;
+}
+
+
+.form-control-custom:focus {
+  border-color: black; /* Focus color */
+  font-size: 25x;
+  box-shadow: none;
+}
+
+/* Submit button styling */
+.form-submit-btn {
+  background-color: #00bfa5;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 6px;
+  margin: auto;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit-btn:hover {
+  background-color: #009688;
+}
+/* .lablef{
+  display: block;
+  /* margin-right: 110px;
+  padding-left: 10px; */
+  /* justify-content: right; */
+/* }  */
+
